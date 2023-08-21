@@ -1,0 +1,143 @@
+.testi-hero{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial{
+    padding: 6.25rem 15rem 0;
+}
+.testi-left{
+    background-image: url(../Assets/img/testi1.svg);
+    padding: 0;
+
+    max-height: 28.125rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.text{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+.testi-left h1{
+    opacity: 0.5;
+    font-family: Rajdhani;
+font-size: 20.625rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-width: 3px;
+margin-top: 8rem;
+-webkit-text-stroke-color: white;
+
+
+}
+#one{
+    font-size: 15rem;
+}
+
+
+
+
+
+.testi-right{
+    padding: 1.56rem 3.12rem;
+    display: flex;
+    align-items: center;
+    gap: 4.12rem;
+}
+.testi{
+    background-image: url(../Assets/img/testi3.svg);
+    background-position: top left;
+    display: flex;
+    flex-direction: column;
+    gap: 2.1rem;
+    background-repeat: no-repeat;
+}
+.testi p{
+    padding-top: 6.5rem;
+    color: #000;
+font-family: Rajdhani;
+font-size: 1.6875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.testi-name img{
+    width: 60px;
+height: 60px;
+}
+.testi-name{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+.testi-client h4{
+    color: #000;
+    font-family: Rajdhani;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 0.31rem;
+
+}
+.testi-client h6{
+    color: #000;
+font-family: Rajdhani;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.testi-detail img{
+    width: 7.5rem;
+    cursor: pointer;
+ padding-bottom: 0.94rem;
+}
+.text2{
+    background-image: url(../Assets/img/testi2.svg);
+    background-repeat: no-repeat;
+}
+.per-circel img{
+
+width: 7.513rem;
+height: 7.513rem;
+
+}
+.testi1{
+    width:100%;
+}
+.per-circel{
+    display: flex;
+justify-content: space-around;
+flex-direction: row;
+
+}
+.circel-de{
+    gap:1.56rem;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   color: #000;
+text-align: center;
+font-family: Rajdhani;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+
+
+
+
+
+
+

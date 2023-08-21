@@ -1,0 +1,104 @@
+
+
+
+.mission{
+    padding: 6.25rem 15rem ;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    justify-content: center;
+    height: max-content !important;
+    position: relative;
+
+
+}
+.mission-left1 {
+    background: var(--black, #1A1A1A);
+        height :100%;
+        display: flex;
+        align-items: center;
+   padding-left: 7.5rem;
+}
+
+.mission-btn{
+    margin-top: 2.81rem;
+    padding: 0.62rem 1.88rem;
+    background: var(--white, #FFF);
+    width: fit-content;
+    color: var(--black, #333);
+font-family: Rajdhani;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+
+.mission-left H3{
+    color: var(--white, #FFF);
+font-family: Rajdhani;
+font-size: 2rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.mission-left h2{
+    color: #FFF;
+font-family: Bebas Neue;
+font-size: 3.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.mission-left p{
+    color: #FFF;
+font-family: Rajdhani;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-block: 0.94rem;
+padding-right: 17rem;
+}
+.vision{
+    padding: 2.5rem 1.5rem;
+    width: 22.5rem;
+
+    border: 1px solid #6F6F6F;
+background: #FFF;
+display: flex;
+flex-direction: column;
+gap: 1.88rem;
+position: absolute;
+left: 49rem;
+}
+.vision-detail h3{
+    display: inline-flex;
+    gap: 0.63rem ;
+    align-items: center;
+    color: var(--black, #333);
+font-family: Rajdhani;
+font-size: 2rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-bottom: 0.63rem;
+}
+.vision-detail h3 hr{
+
+    border-radius: 0rem 0.1875rem 0.125rem 0rem;
+background: var(--green, #58BB47);
+width: 0.25rem;
+height: 2.125rem;
+}
+.vision-detail p{
+    color: var(--black, #333);
+font-family: Rajdhani;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
