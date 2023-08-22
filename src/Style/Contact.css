@@ -86,3 +86,16 @@ input , textarea{
     border: 1px solid #5F5F5F;
     background: transparent ;
 }
+.con-btn{
+    padding: 1.06rem 3.62rem;
+    border: 2px solid var(--green, #58BB47);
+background: var(--green, #58BB47);
+width: fit-content;
+color: var(--white, #FFF);
+font-family: Bebas Neue;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 1.87rem;
+}

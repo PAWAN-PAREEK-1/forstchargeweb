@@ -3,3 +3,109 @@
 @tailwind utilities;
 
 
+.hero-all{
+    padding-inline: 15rem;
+height: 31.375rem;
+position: relative;
+background-image: url(../Assets/img/heroshade.svg),url(../Assets/img/hero2.svg);
+}
+.h-detail hr{
+    width: 1.375rem;
+    border:1px solid  #FFF;
+}
+.h-detail h1{
+    color: #FFF;
+font-family: Bebas Neue;
+font-size: 3.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.h-detail{
+    position: absolute;
+    bottom:10.88rem;
+}
+
+
+
+/* // ABOUT PAGE START*/
+.team-container {
+
+padding: 0 15rem;
+
+}
+
+.team-header {
+    color: #1F1F1F;
+font-family: Bebas Neue;
+font-size: 3.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 3.25rem; /* 86.667% */
+text-align: center;
+}
+
+.team-row {
+    display: flex;
+    flex-direction: row;
+    gap: 3.12rem;
+    margin-top: 4.37rem;
+    align-items: center;
+
+}
+
+.team-image {
+    flex: 1;
+    padding: 10px;
+}
+
+.team-image img {
+    width: 100%;
+    height: auto;
+}
+
+.team-text {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.94rem;
+}
+
+.team-text h2 {
+    color: #1F1F1F;
+    font-family: Bebas Neue;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 3.25rem; /* 86.667% */
+}
+
+.team-text h3 {
+    color: #000;
+    font-family: Rajdhani;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.team-text p {
+    color: #333;
+    font-family: Rajdhani;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+/* // ABOUT PAGE END*/
+
+
+
+
+
+
