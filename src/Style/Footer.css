@@ -1,0 +1,82 @@
+footer{
+    margin-top: 6.25rem;
+    background: var(--black, #333);
+}
+.footer-container {
+    padding-block: 3.12rem 1.56rem;
+
+    text-align: center;
+}
+
+/* Logo Container */
+.logo-container {
+    display: inline-block;
+    /* width: 15rem; */
+    margin-bottom: 1rem;
+}
+
+/* Logo Image */
+.logo-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Paragraph */
+.paragraph {
+    color: #7D7D7D;
+text-align: center;
+font-family: Rajdhani;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-bottom: 2.12rem;
+}
+.links-container hr{
+
+width: 0.0625rem;
+height: 0.5625rem;
+background: #646464;
+}
+
+/* Links Container */
+.links-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 1.69rem;
+    align-items: center;
+
+}
+
+/* Footer Links */
+.footer-link {
+    color: #7D7D7D;
+    font-family: Rajdhani;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Footer Horizontal Line */
+.footer-hr {
+    border-top: 1px solid #C0C0C0;
+}
+
+/* Spacer */
+.spacer {
+    height: 10px;
+}
+.copy{
+    padding: 0.94rem 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #909090;
+font-family: Rajdhani;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
