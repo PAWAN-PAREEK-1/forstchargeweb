@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    max-width: 1980px;
+    margin: auto;
+}
+
 
 .hero-all{
     padding-inline: 15rem;

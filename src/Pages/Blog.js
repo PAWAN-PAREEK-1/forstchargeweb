@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-import { Link } from "react-router-dom"; // Import the Link component
+import { Link } from "react-router-dom";
 import "../Style/Blog.css";
 import chat from "../Assets/img/chat.svg";
 import person from "../Assets/img/person.svg";
@@ -14,21 +14,21 @@ const blogData = [
     title: "10 Reasons to switch to an EV",
     author: "Gustavo Baptista",
     comments: 10,
-    link: "/SingleBlog" // Specify the route path for the first blog
+    link: "/SingleBlog"
   },
   {
     date: "9 May",
     title: "Factors that impact the range on an EV",
     author: "Randy Press",
     comments: 9,
-    link: "/blog/2" // Specify the route path for the second blog
+    link: "/blog/2"
   },
   {
     date: "10 May",
     title: "Gujarat Electric Vehicle Policy 2021",
     author: "Carter Geidt",
     comments: 20,
-    link: "/blog/3" // Specify the route path for the third blog
+    link: "/blog/3"
   }
 ];
 

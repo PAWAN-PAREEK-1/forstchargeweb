@@ -6,6 +6,7 @@ const Loading = lazy(() => import("../Components/Loading"));
 const Navbar = lazy(() => import("../Components/Navbar"));
 const Mission = lazy(() => import("../Components/Mission"));
 const Services = lazy(() => import("../Components/Services"));
+// const Services = lazy(() => import("../Pages/SingleService"));
 const Charge = lazy(() => import("../Components/Charge"));
 const Testimonial = lazy(() => import("../Components/Testimonial"));
 const Faqs = lazy(() => import("../Components/Faqs"));

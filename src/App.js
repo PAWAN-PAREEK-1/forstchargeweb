@@ -13,6 +13,7 @@ const Blog = lazy(() => import('./Pages/Blog'));
 const Services = lazy(() => import('./Pages/Services'));
 const Faqs = lazy(() => import('./Pages/Faqs'));
 const SingleBlog = lazy(() => import('./Pages/SingleBlog.js'));
+const SingleService = lazy(() => import('./Pages/SingleService.js'));
 // const Footer = lazy(() => import('./Components/Footer.js'));
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
             <Route path="/Reviews" element={<Reviews/>} />
             <Route path="/Faqs" element={<Faqs/>} />
             <Route path="/SingleBlog" element={<SingleBlog/>} />
+            <Route path="/SingleService" element={<SingleService/>} />
 
             <Route path="/Blog" element={<Blog/>} />
             <Route path="/Contact" element={<Contact />} />
