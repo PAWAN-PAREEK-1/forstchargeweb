@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { lazy, Suspense } from "react";
 import "../Style/Home.css";
-// import video from "../Assets/img/video.mp4";
+// import video from "../Assets/img/video.svg";
 const Loading = lazy(() => import("../Components/Loading"));
 const Navbar = lazy(() => import("../Components/Navbar"));
 const Mission = lazy(() => import("../Components/Mission"));
@@ -67,14 +67,17 @@ const Home = () => {
 </video>
 
 
+<Testimonial/>
+
+<Faqs/>
+
+<Blog/>
+
+
 
       </div>
 
-      <Testimonial/>
 
-      <Faqs/>
-
-      <Blog/>
 
 
     </Suspense>

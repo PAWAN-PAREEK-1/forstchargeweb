@@ -1,5 +1,8 @@
 .blogs{
     padding: 6.25rem 15rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
 }
 .blogs h1{
@@ -23,7 +26,95 @@ line-height: normal;
 text-align: center;
 }
 .blog-box{
+    display: flex;
+    align-items: end;
+
+    padding: 1.56rem;
     width: 28.75rem;
 height: 28.125rem;
-background-image: url(../Assets/img/blog1.svg);
+background-image: url(../Assets/img/blog1.svg), url(../Assets/img/blog4.svg);
+}
+.blog2{
+    background-image: url(../Assets/img/blog1.svg), url(../Assets/img/blog2.svg);
+}
+.blog3{
+    background-image: url(../Assets/img/blog1.svg), url(../Assets/img/blog3.svg);
+}
+.blog{
+    margin-top: 2.44rem;
+    display: flex;
+width: 100%;
+    justify-content: space-between;
+}
+.blog-box-1 h2{
+    color: var(--white, #FFF);
+font-family: Rajdhani;
+font-size: 1.75rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.blog-box-1 h1{
+    color: var(--white, #FFF);
+font-family: Rajdhani;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-bottom: 0 !important;
+
+
+}
+.date-box{
+
+    padding: 0.31rem 0.88rem;
+    background: #58BB47;
+width: fit-content;
+}
+.blog-box-1{
+    display: flex;
+    align-items: center;
+    gap: 0.94rem;
+
+}
+.blog-box-2 h3{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--white, #FFF);
+    font-family: Rajdhani;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.blog-box-2 hr{
+    width: 0.0625rem;
+height: 0.8125rem;
+background: #979797;
+}
+.blog-box-2 img{
+    width: 1.25rem;
+height: 1.25rem;
+}
+.blog-box-2{
+    padding-top:1.13rem ;
+    display: flex;
+    gap: 1.06rem;
+    align-items: center;
+    justify-content: end;
+}
+.load-btn{
+    margin-top: 1.87rem;
+    padding: 1.06rem 4.37rem;
+    border: 2px solid var(--green, #58BB47);
+background: var(--green, #58BB47);
+width: fit-content;
+color: var(--white, #FFF);
+text-align: center;
+font-family: Bebas Neue;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
