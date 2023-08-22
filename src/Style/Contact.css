@@ -1,0 +1,88 @@
+.Contact{
+    padding: 6.25rem 15rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.75rem;
+}
+.contact-left{
+   padding-block: 6.25rem;
+   display: flex;
+   flex-direction: column;
+
+}
+.contact-left h1{
+    color: #1F1F1F;
+font-family: Bebas Neue;
+font-size: 3.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 1.25rem;
+}
+.contact-left p{
+    color: #7D7D7D;
+font-family: Rajdhani;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.contact-left hr{
+    margin-block:1.56rem ;
+}
+.contact-left img{
+    width: 1.875rem;
+height: 1.875rem;
+}
+.contact-left h3{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.94rem;
+    color: #7D7D7D;
+font-family: Rajdhani;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.call{
+    display: flex;
+    gap: 1.56rem;
+    flex-direction: column;
+}
+.contact-right{
+    background: var(--black, #333);
+    padding: 1.25rem;
+}
+.contact-right-box{
+    border: 2px solid white;
+    padding: 1.88rem;
+}
+.contact-right-box h3{
+    color: #FFF;
+font-family: Bebas Neue;
+font-size: 3.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 1.56rem;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 0.94rem;
+}
+input::placeholder , textarea::placeholder{
+    font-family: Rajdhani;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+input , textarea{
+    padding: 0.75rem;
+    border: 1px solid #5F5F5F;
+    background: transparent ;
+}

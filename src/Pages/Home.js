@@ -10,6 +10,7 @@ const Charge = lazy(() => import("../Components/Charge"));
 const Testimonial = lazy(() => import("../Components/Testimonial"));
 const Faqs = lazy(() => import("../Components/Faqs"));
 const Blog = lazy(() => import("../Components/Blog"));
+const Contact = lazy(() => import("../Components/Contact"));
 
 const Home = () => {
   // const initialText = "Ready For Tomorrow ";
@@ -72,6 +73,8 @@ const Home = () => {
 <Faqs/>
 
 <Blog/>
+
+<Contact/>
 
 
 
