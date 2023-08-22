@@ -115,4 +115,60 @@ line-height: normal;
 
 }
 
+@media (max-width:768px){
+    .mission{
+        padding: 2.20rem 0.94rem;
+
+       grid-template-columns: 1fr;
+    }
+    .mission-left1{
+        padding-left: 0.94rem;
+    }
+    .mission-left H3{
+font-size: 1rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .mission-left h2{
+        color: #FFF;
+font-family: Bebas Neue;
+font-size: 1.625rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .mission-left p{
+font-size: 0.8125rem;
+font-weight: 500;
+line-height: normal;
+padding-right: 0;
+padding-block: 0.31rem;
+    }
+    .mission-left{
+        padding:1.56rem 0.64rem ;
+    }
+    .mission-btn{
+font-size: 1.125rem;
+font-weight: 400;
+line-height: normal;
+margin-top: 0.94rem;
+    }
+    .vision-detail h3{
+font-size: 1.625rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .vision {
+        left: 1.7rem;
+        padding: 0.94rem 1.06rem;
+        width: 15.5625rem;
+        top: 24rem;
+    }
+    .vision-detail p{
+font-size: 0.8125rem;
+font-weight: 500;
+line-height: normal;
+    }
+}
+
 

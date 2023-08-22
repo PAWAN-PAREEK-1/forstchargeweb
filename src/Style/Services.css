@@ -188,3 +188,32 @@ padding-top: 0.31rem;
     }
 
 }
+
+@media (max-width:768px){
+    .service{
+        padding: 0 0.94rem;
+        flex-direction: column-reverse;
+        gap: 1.56rem;
+    }
+    .left-serv h1{
+font-size: 1.625rem;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 0.94rem;
+    }
+    .left-serv p{
+        font-size: 0.8125rem;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .left-serv a{
+font-size: 1.125rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .btn-services{
+        padding: 0.37rem 1.88rem;
+        margin-top: 0.94rem;
+    }
+
+}

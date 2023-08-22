@@ -113,3 +113,49 @@ line-height: normal;
     }
 
   }
+
+  @media (max-width:768px){
+    .hero{
+      padding-inline: 0.94rem;
+      height: 57vh;
+    }
+    .hero-left h3{
+font-size: 1.6875rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .hero-main{
+      padding-inline: 0;
+    }
+    .hero-left{
+      width: 100%;
+    }
+    .hero-left a{
+font-size: 1.125rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .hero-right h5{
+font-size: 0.8125rem;
+font-weight: 700;
+line-height: normal;
+    }
+    .hero-deatil{
+      padding-bottom: 1.5rem;
+    }
+    .hero-left h4{
+      padding-bottom: 1rem;
+    }
+    .hero-right hr{
+      padding-right: 3rem;
+    }
+    .hero-right{
+      align-items: center;
+    }
+    #sliding-text{
+font-size: 2.3125rem;
+font-weight: 900;
+letter-spacing: 0.2775rem;
+text-transform: uppercase;
+    }
+  }

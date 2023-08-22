@@ -141,6 +141,46 @@ line-height: normal;
 
 }
 
+@media (max-width:768px){
+    .testimonial{
+        padding: 0.63rem;
+    }
+    .testi-hero{
+        grid-template-columns: 1fr;
+    }
+    #one{
+        font-size: 3rem;
+    }
+    .testi-left h1{
+        font-size: 4.6rem;
+    }
+    .testi p{
+font-size: 0.8125rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .testi-right{
+        padding: 0.94rem;
+        flex-direction: column;
+    }
+    .testi-client h4{
+font-size: 1rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .testi p{
+        padding-top: 4.5rem;
+    }
+    .testi-detail img{
+        width: 1.375rem;
+    }
+    .testi-detail{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 0.94rem;
+    }
+}
+
 
 
 
