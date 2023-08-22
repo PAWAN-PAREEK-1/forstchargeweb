@@ -14,7 +14,7 @@ a {
     --Playfair: 'Playfair Display', serif;
 }
 .navbar{
-    padding: 1.87rem 3.25rem;
+    padding: 1.87rem 0;
 }
 
 .NavbarList li {
@@ -83,7 +83,7 @@ line-height: normal;
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 

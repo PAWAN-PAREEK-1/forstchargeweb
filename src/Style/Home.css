@@ -5,13 +5,17 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    padding-inline: 15rem;
+    overflow: hidden;
 }
 .hero-main{
-    padding-inline: 15rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+  padding-inline: 0px 28rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
+
+
 .hero-left hr{
     width: 1.375rem;
 border: 1.5px solid black;

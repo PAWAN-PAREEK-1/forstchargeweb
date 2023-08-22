@@ -118,3 +118,74 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+.blog-detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    padding: 6.25rem 15rem 0;
+    align-items: center;
+}
+.blog-box-main{
+    width: 100%;
+    height: 45.6875rem;
+    background-image: url(../Assets/img/blogbg.svg),url(../Assets/img/blog.svg);
+}
+.bb-box{
+    width: 100%;
+}
+#b-h1{
+    color: var(--white, #FFF);
+    font-family: Rajdhani;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#b-h3{
+    color: var(--white, #FFF);
+font-family: Rajdhani;
+font-size: 2rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#date{
+    padding: 0.94rem 1.94rem;
+}
+.right-blog h3{
+    color: #1F1F1F;
+font-family: Bebas Neue;
+font-size: 3.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 0.91rem;
+}
+.right-blog p{
+    color: var(--black, #333);
+font-family: Rajdhani;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-bottom: 0.62rem;
+}
+
+.learn-btn{
+    padding: 1.06rem 4.31rem;
+    border: 2px solid var(--green, #58BB47);
+background: var(--green, #58BB47);
+margin-top: 1.25rem;
+width: fit-content;
+}
+.learn-btn h4{
+    color: var(--white, #FFF);
+text-align: center;
+font-family: Bebas Neue;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
