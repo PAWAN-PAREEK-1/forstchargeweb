@@ -11,7 +11,8 @@ const Reviews = lazy(() => import('./Pages/Reviews'));
 const Contact = lazy(() => import('./Pages/Contact'));
 const Blog = lazy(() => import('./Pages/Blog'));
 const Services = lazy(() => import('./Pages/Services'));
-const Navbar = lazy(() => import('./Components/Navbar.js'));
+const Faqs = lazy(() => import('./Pages/Faqs'));
+// const Navbar = lazy(() => import('./Components/Navbar.js'));
 // const Footer = lazy(() => import('./Components/Footer.js'));
 
 const App = () => {
@@ -24,7 +25,8 @@ const App = () => {
             <Route path="/" element={<Home/>} />
             <Route path="/About" element={<About />} />
             <Route path="/Services" element={<Services />} />
-            <Route path="/Review" element={<Reviews/>} />
+            <Route path="/Reviews" element={<Reviews/>} />
+            <Route path="/Faqs" element={<Faqs/>} />
 
             <Route path="/Blog" element={<Blog/>} />
             <Route path="/Contact" element={<Contact />} />
