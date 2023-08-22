@@ -104,4 +104,15 @@ line-height: normal;
     width: 100%;
 }
 
+@media (min-width:1100px)and (max-width: 1850px) {
+    .mission{
+      padding: 6.25rem 3.25rem 0;
+
+    }
+    .vision{
+        left: 37rem;
+    }
+
+}
+
 

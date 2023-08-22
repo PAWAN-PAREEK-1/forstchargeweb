@@ -80,3 +80,11 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
+
+@media (min-width:1100px)and (max-width: 1850px) {
+    .copy{
+      padding: 0.94rem 3.25rem ;
+
+    }
+
+}

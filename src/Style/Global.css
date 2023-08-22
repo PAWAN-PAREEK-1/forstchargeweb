@@ -110,6 +110,17 @@ text-align: center;
 /* // ABOUT PAGE END*/
 
 
+@media (min-width:1100px)and (max-width: 1850px) {
+    .hero-all{
+      padding-inline: 3.25rem;
+
+    }
+    .team-container{
+        padding: 6.25rem 3.25rem 0 ;
+    }
+
+}
+
 
 
 

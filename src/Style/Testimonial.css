@@ -133,6 +133,14 @@ font-weight: 500;
 line-height: normal;
 }
 
+@media (min-width:1100px)and (max-width: 1850px) {
+    .testimonial{
+      padding: 6.25rem 3.25rem 0;
+
+    }
+
+}
+
 
 
 
