@@ -70,7 +70,7 @@ const Testimonial = () => {
         </div>
 
 
-        <div className="testi-hero">
+        <div className="testi-hero testihero2">
 
           <div className="testi-right">
             <div className="testi1">

@@ -215,5 +215,61 @@ line-height: normal;
         padding: 0.37rem 1.88rem;
         margin-top: 0.94rem;
     }
+    .service-page{
+        padding: 0.94rem;
+    }
+    .service-page h2{
+font-size: 1.625rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .service-page h3{
+font-size: 0.8125rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .service-main{
+        margin-top: 0.96rem;
+        gap: 0.96rem;
+        overflow: auto;
+        height: 26vh;
+    }
+    .serv-detail {
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: normal;
+        padding: 0.5rem;
+        width: 5.675rem;
+        height: 8.5rem;
+        bottom: 0;
+        left: 5px;
+    }
+    .ser-btn {
+        font-size: 0.7rem;
+        margin-top: 0.96rem;
+        font-weight: 400;
+        line-height: normal;
+        padding: 0.38rem 0.38rem;
+    }
+    .service-main-single{
+        grid-template-columns: 1fr;
+        gap: 0.96rem;
+        margin-top: 0.96rem;
+    }
+    .single-text h1{
+font-size: 1.625rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .single-para h3{
+font-size: 1.25rem;
+font-weight: 700;
+line-height: normal;
+    }
+    .single-para p{
+font-size: 0.8125rem;
+font-weight: 500;
+line-height: normal;
+    }
 
 }

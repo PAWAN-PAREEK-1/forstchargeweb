@@ -88,3 +88,31 @@ line-height: normal;
     }
 
 }
+
+@media (max-width:768px){
+    footer{
+        margin-top: 0.94rem;
+        padding: 0.94rem;
+    }
+    .paragraph{
+font-size: 0.8125rem;
+font-weight: 500;
+line-height: normal;
+padding-bottom: 0.94rem;
+    }
+    .footer-link{
+font-size: 0.8125rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .links-container{
+        gap: 0.94rem;
+        flex-wrap: wrap;
+    }
+    .copy{
+font-size: 0.75rem;
+font-weight: 600;
+line-height: normal;
+padding: 0.94rem;
+    }
+}

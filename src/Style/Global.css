@@ -121,6 +121,52 @@ text-align: center;
 
 }
 
+@media (max-width:768px){
+    .hero-all{
+        padding: 0.94rem;
+        height: 14.375rem;
+        background-size: cover;
+
+    }
+    .h-detail h1{
+font-size: 1.6875rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .h-detail{
+        top: 9rem;
+        bottom: 0;
+    }
+    .team-container{
+        padding: 0.94rem;
+    }
+    .team-header,.team-text h2{
+font-size: 1.625rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .team-text h3
+    {
+
+font-size: 1.25rem;
+font-weight: 600;
+line-height: normal;
+    }
+    .team-text p{
+font-size: 0.8125rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .team-row{
+        flex-direction: column;
+        gap: 0;
+        margin-top: 0;
+    }
+    .teamrow2{
+        flex-direction: column-reverse;
+    }
+}
+
 
 
 

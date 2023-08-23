@@ -202,3 +202,103 @@ line-height: normal;
 
 }
 
+@media (max-width:768px){
+    .blogs{
+        padding: 0.94rem;
+    }
+    .blogs h1{
+font-size: 1.625rem;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 0.94rem;
+    }
+    .blogs p{
+font-size: 0.8125rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .blog-box-1 h1{
+font-size: 0.875rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .blog-box-1 h2{
+font-size: 1rem;
+font-weight: 600;
+line-height: normal;
+    }
+    .blog-box-2 h3{
+font-size: 0.8125rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .blog{
+        overflow: auto;
+        justify-content: initial;
+        gap: 0.94rem;
+    }
+    .blog-box{
+        padding: 0.64rem;
+        width: 14.375rem;
+height: 12.1875rem;
+background-size: cover;
+    }
+    .blog-box-2{
+        justify-content: initial;
+    }
+    .load-btn{
+font-size: 1.125rem;
+margin-top: 0.94rem;
+font-weight: 400;
+line-height: normal;
+padding: 0.37rem 1.87rem;
+    }
+    .blog-detail{
+        padding: 0.96rem;
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    #b-h1{
+font-size: 1.5rem;
+font-weight: 500;
+line-height: normal;
+    }
+    #date{
+        padding: 0.56rem 1.06rem;
+    }
+    .blog-box-main{
+        width: 100%;
+        height: 26rem;
+    }
+    #b-h3{
+font-size: 1.25rem;
+font-weight: 500;
+line-height: normal;
+width: 100%;
+    }
+    .blog-box-2 hr{
+        display: none;
+    }
+    .right-blog h3{
+font-size: 1.625rem;
+font-weight: 400;
+line-height: normal;
+margin-top: 0.94rem;
+    }
+    .right-blog p{
+font-size: 0.8125rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .learn-btn h4{
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .learn-btn{
+        padding: 0.37rem 1.38rem;
+        margin-top: 0.96rem;
+    }
+}
+

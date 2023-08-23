@@ -62,7 +62,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="team-row">
+          <div className="team-row teamrow2">
             <div className="team-text">
               <h2>Krunal Patel</h2>
               <h3>Director</h3>
